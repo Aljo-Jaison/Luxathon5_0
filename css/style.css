@@ -311,7 +311,7 @@ body .yt_fill_size {
   height: 141px;
   position: absolute !important;
   left: 806px;
-  top: 2877px;
+  top: 2860px;
   align-items: center;
   justify-content: flex-start;
   gap: 10px normal;
@@ -498,7 +498,7 @@ body .yt_fill_size {
   height: 410px;
   position: absolute !important;
   left: 0px;
-  top: 0px;
+  top: 10px;
 }
 .text_5dd8d8fa95ab {
   width: 312px;
@@ -580,6 +580,7 @@ body .yt_fill_size {
   position: relative !important;
   width: 331px;
   height: 410px;
+  margin: 20px;
 }
 .container_9310e18dac16 {
   width: 1193px;
@@ -605,7 +606,7 @@ body .yt_fill_size {
   z-index: 3;
   position: absolute !important;
   left: -300px;
-  top: 1966px;
+  top: 1990px;
   background: #037e0280;
   border-radius: 50% 50% 50% 50%;
   filter: blur(544px);
@@ -2530,12 +2531,20 @@ section{
   background: #11111b;
 }
 
+
+
+
+
 @media (max-width: 824px) {
   .Luxathon_5_0 .yotako-main {
     display: none !important;
   }
   .Luxathon_5_0 .vp_824 {
     display: flex !important;
+  }
+  .carousel-item img{
+    height: 25vh;
+    width:65vw;
   }
 }
 
@@ -2545,6 +2554,10 @@ section{
   }
   .Luxathon_5_0 .vp_1920 {
     display: flex !important;
+  }
+  .mobview.carousel-item img{
+    height: 20vh;
+    width:70vw;
   }
 }
 
