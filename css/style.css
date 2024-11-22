@@ -1658,6 +1658,7 @@ section{
   line-height: 67.5px;
   background: linear-gradient(94deg, #ffffffff 0%, #02b902ff 100%);
   font-family: "Poppins";
+  margin-bottom: 0%;
 }
 .text_9b2d0380bab9 {
   width: fit-content;
@@ -1957,7 +1958,7 @@ section{
   top: 149px;
   align-items: flex-start;
   justify-content: center;
-  gap: 100px normal;
+  gap: 50px normal;
   flex-direction: column;
 }
 .container_1b5d43f8e1d1 {
@@ -1966,7 +1967,7 @@ section{
   height: 1584px;
   z-index: 2;
   left: 30px;
-  top: 1715px;
+  top: 1710px;
 }
 .text_e9268a42def3 {
   width: fit-content;
@@ -2025,7 +2026,7 @@ section{
   height: 382px;
   z-index: 2;
   left: -21px;
-  top: 3301px;
+  top: 3279px;
 }
 .text_92dfd146d72b {
   width: fit-content;
@@ -2362,10 +2363,10 @@ section{
   height: 282px;
   position: absolute !important;
   left: 56px;
-  top: 1402px;
+  top: 1432px;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 35px normal;
+  gap: 10px normal;
   flex-direction: column;
 }
 .imageview_8c374b60a4b2 {
@@ -2544,9 +2545,10 @@ section{
   }
   .carousel-item img{
     height: 25vh;
-    width:65vw;
+    width:70vw;
   }
 }
+
 
 @media (min-width: 825px) {
   .Luxathon_5_0 .yotako-main {
@@ -2556,8 +2558,8 @@ section{
     display: flex !important;
   }
   .mobview.carousel-item img{
-    height: 20vh;
-    width:70vw;
+    height: 25vh;
+    width:65vw;
   }
 }
 
