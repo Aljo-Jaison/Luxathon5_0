@@ -239,7 +239,7 @@
             </h3>
 
             <h2
-              class="text_9510a3683b35 has-text-color has-background has-text-align-left yt_text_background wp-block-heading"
+              class="about text_9510a3683b35 has-text-color has-background has-text-align-left yt_text_background wp-block-heading"
               id="958a7f18-6ffc-450a-aa14-9510a3683b35"
               style="
                 text-transform: none;
@@ -1469,14 +1469,62 @@
         
         <!-- Mobile View -->
         
+
+
         <div
           class="vp_824 size_393 viewport_31af15841ac1 wp-block-group yotako-main is-layout-flow wp-block-group-is-layout-flow"
         >
+
           
                      <!-- prizes mobile -->
-  
+                    <script>
+                      const toggleButton = document.querySelector('.toggle-button');
+                  const navbarLinks = document.querySelector('.navbar-links');
+
+                  toggleButton.addEventListener('click', () => {
+                    navbarLinks.classList.toggle('active');
+                  });
+                    </script>
  
                      <body>
+                      
+                      <nav class="navbar border-0" style="
+                        background-color: rgba(18, 15, 34, 0.5); "
+                         data-bs-theme="dark" >    
+                         
+                         <div class="container-fluid">
+                          <a class="navbar-brand" href="#">
+                            <img src="./src/Photos/lx.png" alt="Logo" width="30" height="35" class="d-inline-block align-text-top">
+                            
+                          </a>
+                          <button class="navbar-toggler  ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarText">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0  ms-auto">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#About">About</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#Registernow">Register now</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Participation</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#termsandcond">Terms </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#contactus ">Contact</a>
+                              </li>
+                            </ul>
+                            
+                          </div>
+                        </div>
+                      </nav>
                       <div style="position: relative;">
                         <img src="src/Prizes.png" 
                              alt="Image description"
@@ -1692,7 +1740,7 @@
                   font-weight: 600;
                   letter-spacing: -0.5px;
                   color: #00000000;
-                "
+                " id="About"
               >
                 About Luxathon
               </h2>
@@ -1721,7 +1769,7 @@
           <div
             class="wp-block-group container_1b5d43f8e1d1 is-layout-flow wp-block-group-is-layout-flow"
           >
-            <div
+            <div id="Registernow"
               class="wp-block-group container_d6dd8ff6881f is-layout-flow wp-block-group-is-layout-flow"
             >
             
@@ -1736,11 +1784,12 @@
                   letter-spacing: -0.5px;
                   color: #00000000;
                 "
+                
               >
                 Registration
               </h2>
 
-              <h3
+              <h3 
               class="text_21ba384bbcc3 has-text-color has-background has-text-align-center"
               style="
                 text-transform: none;
@@ -2137,6 +2186,7 @@
                       text-transform: none;
                       font-style: normal;
                       font-size: 20.5px;
+                      margin-top: 4px;
                       font-weight: 400;
                       letter-spacing: -0.5px;
                       color: #00000000;
@@ -2217,7 +2267,7 @@
             >
               <div class="wp-block-yotako-block-anchor button_75a79d708c1a">
                 <a
-                  href="#"
+                  
                   style="
                     display: flex;
                     flex-direction: row;
@@ -2228,7 +2278,7 @@
                   rel="noopener"
                 >
                   <h3
-                    class="text_92dfd146d72b has-text-color has-background has-text-align-left yt_text_background wp-block-heading"
+                    class="text_92dfd146d72b has-text-color has-background has-text-align-left yt_text_background wp-block-heading" id="contactus"
                     style="
                       text-transform: none;
                       font-style: normal;
@@ -2329,7 +2379,7 @@
               class="wp-block-group container_b32ceb9ef84d is-layout-flow wp-block-group-is-layout-flow"
             >
               <h2
-                class="text_c33d6fab930a has-text-color has-background has-text-align-center yt_text_background wp-block-heading"
+                class="text_c33d6fab930a has-text-color has-background has-text-align-center yt_text_background wp-block-heading" id="termsandcond"
                 style="
                   text-transform: none;
                   font-style: normal;
