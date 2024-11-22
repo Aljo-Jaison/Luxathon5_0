@@ -291,7 +291,7 @@ body .yt_fill_size {
   width: 1848px;
   height: 763px;
   z-index: 2;
-  left: 69px;
+  left: 20px;
   top: 1303px;
 }
 .text_ba9565aeceff {
@@ -1967,7 +1967,7 @@ section{
   height: 1584px;
   z-index: 2;
   left: 30px;
-  top: 1710px;
+  top: 1800px;
 }
 .text_e9268a42def3 {
   width: fit-content;
@@ -2009,7 +2009,7 @@ section{
   top: 32px;
   align-items: center;
   justify-content: flex-start;
-  gap: 10px normal;
+ 
   flex-direction: column;
 }
 .imageview_743e424b2137 {
@@ -2026,7 +2026,7 @@ section{
   height: 382px;
   z-index: 2;
   left: -21px;
-  top: 3279px;
+  top: 3350px;
 }
 .text_92dfd146d72b {
   width: fit-content;
@@ -2150,7 +2150,7 @@ section{
   width: 344px;
   height: 62px;
   left: 29px;
-  top: 5101px;
+  top: 5050px;
 }
 .text_c33d6fab930a {
   width: 100%;
@@ -2236,7 +2236,7 @@ section{
   z-index: 2;
   position: absolute !important;
   left: 16px;
-  top: 3721px;
+  top: 3750px;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
@@ -2363,7 +2363,7 @@ section{
   height: 282px;
   position: absolute !important;
   left: 56px;
-  top: 1432px;
+  top: 1470px;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 10px normal;
@@ -2371,7 +2371,7 @@ section{
 }
 .imageview_8c374b60a4b2 {
   width: 393px;
-  height: 425px;
+  height: 400px;
   z-index: 2;
   position: absolute !important;
   left: 68px;
@@ -2563,3 +2563,11 @@ section{
   }
 }
 
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  border-bottom: 1px solid #ccc; /* Optional border for separation */
+}
+.navbar {
+ 
+}
